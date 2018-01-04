@@ -1,0 +1,33 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+    ShopifyApp.ready(function(){
+      ShopifyApp.Bar.initialize({
+        title: "Home",
+        icon: "<%= asset_path('favicon.ico') %>"
+      });
+    });
+  </script>
+<% end %>
+<div class="container">
+  <div class="row">
+    <div class="col m6 offset-m3">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Slackfy</span>
+          <%= form_tag url_for(:controller => "home", :action => "set_webhook") do |f| %>
+
+              <div class="field" id="other_remark">
+                <%= label_tag :slack_webhook_url %><br>
+                ​<%= text_field_tag 'webhook_url'%>
+              </div>
+
+              <%= submit_tag "Submit", :class => "btn btn-warning" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
