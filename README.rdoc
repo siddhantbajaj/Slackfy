@@ -1,5 +1,7 @@
 A Shopify-Slack integration app that notifies your slack channel whenever a new product is added in your shop. Implemented to get familiar with Shopify API.
 
+URL: http://slack-fy.herokuapp.com
+
 Here's the workflow:
 - Set up incoming webhook for your slack channel.
 
