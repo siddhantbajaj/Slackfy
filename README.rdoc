@@ -1,28 +1,14 @@
-== README
+A Shopify-Slack integration app that notifies your slack channel whenever a new product is added in your shop. Implemented to get familiar with Shopify API.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here's the workflow:
+- Set up incoming webhook for your slack channel.
 
-Things you may want to cover:
+- Enter the webhook url in the app.
 
-* Ruby version
+https://user-images.githubusercontent.com/17237680/34571970-12542c7e-f196-11e7-9cee-7e03921000e5.png
 
-* System dependencies
+- All set to go. :)
 
-* Configuration
+https://user-images.githubusercontent.com/17237680/34572083-6ba473a6-f196-11e7-941e-ccd2d21cecd0.png
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+https://user-images.githubusercontent.com/17237680/34572126-8f33c9b6-f196-11e7-9e46-07aa8bc11f0c.png
